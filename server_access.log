@@ -1,0 +1,5 @@
+2026-06-15 10:00:01 INFO User 'admin' logged in from 192.168.1.50
+2026-06-15 10:01:23 INFO Database backup completed successfully
+2026-06-15 10:05:12 WARN Disk usage reaching 85% on dev-srv012026-06-15 19:45:00 ERROR Failed password for root from 10.0.0.1 port 22
+2026-06-15 19:45:00 ERROR Failed password for root from 10.0.0.1 port 22
+2026-06-15 19:45:00 ERROR Failed password for root from 10.0.0.1 port 22
