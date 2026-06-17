@@ -79,7 +79,8 @@ def send_discord_alert(event_type: str, log_line: str) -> bool:
 
 
 def monitor_log(target_file: str):
-    """Main real-time monitoring function."""
+    """Main real-time monitoring function. Opens the log file, seeks to the end,
+    and continuously reads new lines, checking each against security patterns."""
     print(f"[{datetime.now()}] 🚀 Security Log Monitor v2026 Started")
     print(f"Watching → {target_file}")
     print("Press Ctrl+C to stop monitoring\n")
