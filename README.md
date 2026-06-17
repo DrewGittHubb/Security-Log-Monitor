@@ -1,4 +1,4 @@
-# Security Log Monitor — Project #5
+# Security Log Monitor
 
 A real-time log monitoring and alerting tool built in Python for Security Automation class (June 2026).
 
