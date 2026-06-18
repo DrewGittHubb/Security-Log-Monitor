@@ -28,4 +28,4 @@ None — built entirely with Python standard library. No pip installs required.
 The Discord webhook URL is intentionally left as a placeholder. Never commit real API keys or webhook URLs to GitHub.
 
 ## Author
-Security Automation Class — June 2026
+Andrew Avila — Security Automation Class — June 2026
