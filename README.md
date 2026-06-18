@@ -14,8 +14,7 @@ Continuously watches a log file for security events and sends instant alerts to 
 ## How to Run
 1. Clone this repository
 2. Add your Discord webhook URL to line 33 of `log_monitor.py`
-3. Run the script:
-python log_monitor.py
+3. Run the script: python log_monitor.py --file server_access.log
 4. In a second terminal, append suspicious log lines to `server_access.log` to trigger alerts
 
 ## Webhook Setup
@@ -28,11 +27,8 @@ python log_monitor.py
 ## Testing
 python log_monitor.py --file server_access.log
 
-## Prerequisites
-Python 3.x is required. No additional installations or pip packages needed — the script runs entirely on the Python standard library.
-
-## Dependencies
-None — built entirely with Python standard library. No pip installs required.
+## Prerequisites and Dependencies
+Python 3.x is required. No additional installations or pip packages needed — the script runs entirely on the Python standard library. No pip installs required.
 
 ## What Triggers an Alert
 The following patterns in your log file will trigger an immediate Discord alert:
